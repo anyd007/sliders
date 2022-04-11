@@ -14,21 +14,24 @@ body{
     overflow: hidden;
     position: relative;
 }
-.sliderOne-images{
- display: flex;
- flex-direction: row;
- position: absolute;
- transform: translate3d(0,0,0);
- transition: 1500ms;
-}
 #mainSlides{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
     border: 2px solid tomato;
     border-radius: 10px;
     width: 1200px;
-    height: 700px;
+    height: 80%;
     margin: auto;
     box-shadow: -3px 1px 48px 26px rgba(66, 68, 90, 1);
 }
+.sliderOne-images{
+    display: flex;
+    flex-direction: row;
+    transform: translate3d(0,0,0);
+    transition: 1500ms;
+   }
 img{
    width: 1200px;
    height: 700px;
