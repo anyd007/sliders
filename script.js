@@ -1,6 +1,6 @@
 const slideShow = () => {
 //   const slides = document.getElementById(slidesId);
-  const img = document.querySelectorAll("img");
+  const img = document.querySelectorAll(".sliderOne-images img");
   const sliderOneImages = document.querySelector(".sliderOne-images");
   
   let imageIndex = 0;
